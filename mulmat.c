@@ -40,7 +40,7 @@ int main(void)
       for (int j = 0; j < c2; j++)
       {
         res[i][j] = 0;
-        for (int k = 0; k < l1; k++)
+        for (int k = 0; k < c1; k++)
         {
           res[i][j] += M1[i][k] * M2[k][j];
         }
